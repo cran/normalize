@@ -1,0 +1,11 @@
+201fffa33be52417e5c1de40f51bbbec *DESCRIPTION
+0534c367ef0bb747bcd993752e83b302 *NAMESPACE
+ad96d605c92b133489b98e7ef2bf5494 *NEWS.md
+55c5c4cd5f3ac6f48919ea2df521e7d4 *R/normalize-package.R
+b0ec5baaf83108fabe278cb8d66addf1 *R/normalize.R
+3c30cdfae1390c20f56143635675ff64 *README.md
+d72bae9f0a1d185051123e4e986f2cfa *man/figures/logo.png
+f12d0834cb945fef76251cb833032414 *man/normalize-package.Rd
+61cdf9ebf8b90eebef3ac84894aaa2a2 *man/normalize.Rd
+912748b8eba255b93dbc6a94d7b4f13d *tests/testthat.R
+dc4f596ed6792bacf2693f84897d8758 *tests/testthat/test-normalize.R
