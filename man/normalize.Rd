@@ -2,6 +2,7 @@
 % Please edit documentation in R/normalize.R
 \name{normalize}
 \alias{normalize}
+\alias{normalize.default}
 \alias{normalize.numeric}
 \alias{normalize.matrix}
 \alias{normalize.data.frame}
@@ -9,6 +10,8 @@
 \title{Centering and scaling of numeric data}
 \usage{
 normalize(x, center = TRUE, scale = TRUE, ...)
+
+\method{normalize}{default}(x, ...)
 
 \method{normalize}{numeric}(x, center = TRUE, scale = TRUE, ...)
 
@@ -37,15 +40,15 @@ normalize(x, center = TRUE, scale = TRUE, ...)
 \arguments{
 \item{x}{An object to be normalized.}
 
-\item{center}{[\code{integer(1)}]\cr
+\item{center}{[\code{logical(1)}]\cr
 Normalize to zero mean?}
 
-\item{scale}{[\code{integer(1)}]\cr
+\item{scale}{[\code{logical(1)}]\cr
 Normalize to unit variance?}
 
 \item{...}{Further arguments to be passed to or from other methods.}
 
-\item{byrow}{[\code{integer(1)}]\cr
+\item{byrow}{[\code{logical(1)}]\cr
 Only relevant if \code{x} has two dimensions (rows and columns).
 
 In this case, set to \code{TRUE} to normalize row-wise or \code{FALSE} to normalize
